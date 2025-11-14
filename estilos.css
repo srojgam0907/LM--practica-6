@@ -1,10 +1,16 @@
 /* ====== Estilos base ====== */
+html { /*SRG - RETO*/
+  background-color: #ffeab8;
+  margin: 40px;
+}
+
 body {
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f6f8;
   color: #222;
+  box-shadow: 0px 0px 20px 5px rgba(13, 59, 102, 0.9); /*SRG - RETO*/
 }
 
 /* ====== Cabecera ====== */

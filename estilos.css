@@ -16,7 +16,7 @@ header {
 }
 
 header img {
-  height: 80px;
+  height: 120px; /*SRG - sol8*/
   vertical-align: middle;
 }
 
@@ -134,9 +134,14 @@ footer {
 
 /* ====== Extras ====== */
 em {
+  background-color: #ffeab8; /*SRG - sol9*/
   color: #0077b6;
 }
 
 strong {
   color: #ff6b35;
+}
+
+.fondoMenu header { /*SRG - sol10*/
+  background-color: #74750D;
 }
